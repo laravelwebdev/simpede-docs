@@ -6,7 +6,7 @@
     "light": "/logo/light.svg"
   },
   "background": {
-    "style": "grid"
+    "style": "windows"
   },
   "favicon": "/favicon.svg",
   "colors": {
