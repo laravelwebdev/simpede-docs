@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Panduan Penggunaan Simpede",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Kerangka Acuan Kerja",
       "pages": [
         "essentials/markdown",
         "essentials/code",
