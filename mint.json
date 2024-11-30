@@ -16,12 +16,12 @@
     }
   },
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Simpede",
     "url": "https://simpede.office6307.my.id"
   },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Sebelum Memulai",
       "pages": [
         "introduction",
         "quickstart",
