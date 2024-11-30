@@ -43,6 +43,12 @@
       "pages": [
         "perjalanan-dinas/perjalanan"
       ]
+    },
+    {
+      "group": "Honor Kegiatan",
+      "pages": [
+        "honor/honor"
+      ]
     }
   ],
   "footerSocials": {
