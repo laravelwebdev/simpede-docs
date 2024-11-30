@@ -23,9 +23,7 @@
     {
       "group": "Sebelum Memulai",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
