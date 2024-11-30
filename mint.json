@@ -6,7 +6,7 @@
     "light": "/logo/light.svg"
   },
   "background": {
-    "style": "gradient"
+    "style": "grid"
   },
   "favicon": "/favicon.svg",
   "colors": {
