@@ -54,7 +54,8 @@
     {
       "group": "Pengelolaan Persediaan",
       "pages": [
-        "persediaan/permintaan"
+        "persediaan/permintaan",
+        "persediaan/pembelian"
       ]
     }
   ],

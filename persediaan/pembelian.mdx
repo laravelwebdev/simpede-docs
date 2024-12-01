@@ -1,0 +1,60 @@
+---
+title: "Pembelian Persediaan"
+description: "Menu ini berguna untuk melakukan pencatatan pembelian barang persediaan"
+---
+
+## Alur Pencatatan
+
+```mermaid
+  flowchart TB
+        top1[Pejabat PBJ Melakukan Penerimaan] --> bottom1[Pengelola Persediaan Memberi Kode Barang Persediaan]
+        bottom1 --> top2[PPK menginput BAST di Sakti]
+        top2 --> bottom2[Pencetakan Pernyataan Serah Terima /BAST Pembelian]
+```
+
+## Penerimaan Barang
+
+Penerimaan Barang dilakukan oleh Pejabat PBJ melalui menu `Manajemen` -> `Pembelian` dengan berpedoman pada langkah berikut.
+
+<Steps>
+  <Step title="Menginput Tanggal Nota">
+    Input Tanggal Nota dilakukan melalui `Tombol Sunting` pada record yang akan diinput tanggal notanya.
+    <Frame caption="Input Tanggal Nota">
+        ![Export Template](../images/export-bos.png)
+    </Frame>
+  </Step>
+  <Step title="Melengkapi Rincain Barang Yang Diterima">
+    Upload file excel yang telah diexport ke dalam Aplikasi BOS melalui tombol `Upload Excel`. Jangan lupa memberi ceklis pada pilihan `Terdapat Daftar Mitra SOBAT BPS`.
+        <Frame caption="Import pada Aplikasi BOS">
+        ![Export Template](../images/import-ke-bos.png)
+    </Frame>
+  </Step>
+    <Step title="Menandai Bahwa Barang Telah Diterima">
+    Upload file excel yang telah diexport ke dalam Aplikasi BOS melalui tombol `Upload Excel`. Jangan lupa memberi ceklis pada pilihan `Terdapat Daftar Mitra SOBAT BPS`.
+        <Frame caption="Import pada Aplikasi BOS">
+        ![Export Template](../images/import-ke-bos.png)
+    </Frame>
+  </Step>
+</Steps>
+
+
+
+## Pemberian Kode
+<Warning>
+    Saldo persediaan tidak akan dikurangi sebelum Bon Permintaan Persediaan dicetak!
+</Warning>
+
+## Pencatatan di Aplikasi Sakti
+
+
+Untuk mencetak Bon Permintaan dapat dilakukan dengan cara menekan `Tombol Aksi` pada record yang akan dicetak, kemudian pilih `Unduh Permintaan Persediaan`.
+
+<Frame caption="Tampilan Cetak Permintaan Persediaan">
+    ![Unduh Persediaan](../images/cetak-bon.png)
+</Frame>
+
+<Tip>
+    Anda dapat mengganti nama file BON Permintaan yang diunduh.
+</Tip>
+
+
