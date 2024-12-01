@@ -1,0 +1,41 @@
+---
+title: "Persetujuan Permintaan"
+description: "Persetujuan dilakuan oleh Pengelola Persediaan"
+---
+
+## Alur Permintaan Barang Persediaan
+
+```mermaid
+  flowchart TB
+        top1[Pegawai Mengisi Bon Permintaan] --> bottom1[Pengelola Persediaan Menyetujui]
+        bottom1 --> top2[Pengelola Persediaan Mencetak Bon Persediaan]
+        top2 --> bottom2[Pegawai Menyerahkan Bon Permintaan Ke Pengelola Gudang]
+        bottom2 --> top3[Pengelola Gudang Menyerahkan Barang persediaan]
+```
+
+## Menyetujui Permintaan
+
+Persetujuan Permintaan dapat dilakukan melalui menu `Bon Permintaan`. Pada Halaman Indeks tekan `Tombol Sunting` pada record yang ingin disetujui dan isikan tanggal persetujuan.
+
+<Frame caption="Tampilan Persetujuan Bon Permintaan">
+    ![Tambah Bon Permintaan](../images/persetujuan-persediaan.png)
+</Frame>
+
+
+## Mencetak Bon Permintaan
+<Warning>
+    Saldo persediaan tidak akan dikurangi sebelum Bon Permintaan Persediaan dicetak!.
+</Warning>
+
+
+Untuk mencetak Bon Permintaan dapat dilakukan dengan cara menekan `Tombol Aksi` pada record yang akan dicetak, kemudian pilih `Unduh Permintaan Persediaan`.
+
+<Frame caption="Tampilan Cetak Permintaan Persediaan">
+    ![Unduh Persediaan](../images/cetak-bon.png)
+</Frame>
+
+<Tip>
+    Anda dapat mengganti nama file BON Permintaan yang diunduh.
+</Tip>
+
+

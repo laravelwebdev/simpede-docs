@@ -50,6 +50,12 @@
       "pages": [
         "honor/honor"
       ]
+    },
+    {
+      "group": "Pengelolaan Persediaan",
+      "pages": [
+        "persediaan/permintaan"
+      ]
     }
   ],
   "footerSocials": {
