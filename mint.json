@@ -30,12 +30,13 @@
       ]
     },
     {
-      "group": "Panduan Dasar",
+      "group": "Panduan Umum",
       "pages": [
         "kerangka-acuan",
         "izin-keluar",
         "permintaan-persediaan",
-        "naskah-keluar"
+        "naskah-keluar",
+        "pemeliharaan"
       ]
     },
     {
