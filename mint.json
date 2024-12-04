@@ -59,6 +59,13 @@
         "persediaan/masuk",
         "persediaan/keluar"
       ]
+    },
+    {
+      "group": "Sinkronisasi Data Anggaran",
+      "pages": [
+        "sinkronisasi/revisi",
+        "sinkronisasi/serapan"
+      ]
     }
   ],
   "footerSocials": {
