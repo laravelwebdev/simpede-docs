@@ -56,7 +56,8 @@
       "pages": [
         "persediaan/permintaan",
         "persediaan/pembelian",
-        "persediaan/masuk"
+        "persediaan/masuk",
+        "persediaan/keluar"
       ]
     }
   ],
