@@ -8,8 +8,8 @@ description: "Menu ini berguna untuk melakukan pencatatan pembelian barang perse
 ```mermaid
   flowchart TB
         top1[Pejabat PBJ Melakukan Penerimaan] --> bottom1[Pengelola Persediaan Memberi Kode Barang Persediaan]
-        bottom1 --> top2[PPK menginput BAST di Sakti]
-        top2 --> bottom2[Pencetakan Pernyataan Serah Terima /BAST Pembelian]
+        bottom1 --> top2[Pencetakan Pernyataan Serah Terima /BAST Pembelian]
+        top2 --> bottom2[PPK menginput BAST di Sakti]
 ```
 
 ## Penerimaan Barang
@@ -73,6 +73,10 @@ Tahap selanjutnya adalah mencetak Pernyataan Penerimaan Barang Persediaan oleh P
 <Frame caption="Aksi Cetak Pernyataan Penerimaan">
     ![cetak terima](../images/serah-terima.png)
 </Frame>
+
+<Warning>
+    Saldo persediaan tidak akan berubah sebelum Pernyataan Penerimaan dicetak!
+</Warning>
 
 ## Pencatatan di Aplikasi Sakti
 
