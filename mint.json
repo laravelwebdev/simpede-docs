@@ -11,6 +11,10 @@
   "sidebar": {
     "items": "card"
   },
+  "topbar": {
+    "style": "gradient"
+  },
+  "layout": "sidenav",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
