@@ -8,6 +8,9 @@
   "background": {
     "style": "windows"
   },
+  "sidebar": {
+    "items": "card"
+  },
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
