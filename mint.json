@@ -62,7 +62,8 @@
     {
       "group": "Pengelolaan Kontrak Mitra",
       "pages": [
-        "kontrak/kontrak"
+        "kontrak/kontrak",
+        "kontrak/bast"
       ]
     },
     {
