@@ -62,6 +62,13 @@
       ]
     },
     {
+      "group": "Kartu Kendali",
+      "pages": [
+        "karken/persediaan",
+        "karken/pemeliharaan"
+      ]
+    },
+    {
       "group": "Sinkronisasi Data Anggaran",
       "pages": [
         "sinkronisasi/revisi",
