@@ -53,6 +53,12 @@
       ]
     },
     {
+      "group": "Pengelolaan Kontrak Mitra",
+      "pages": [
+        "kontrak/kontrak"
+      ]
+    },
+    {
       "group": "Pengelolaan Persediaan",
       "pages": [
         "persediaan/permintaan",
