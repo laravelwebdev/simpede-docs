@@ -14,7 +14,7 @@
   "topbar": {
     "style": "gradient"
   },
-  "layout": "sidenav",
+  "layout": "topnav",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
