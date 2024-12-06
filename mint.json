@@ -83,6 +83,12 @@
       ]
     },
     {
+      "group": "Pengelolaan Arsip",
+      "pages": [
+        "arsip/arsip"
+      ]
+    },
+    {
       "group": "Sinkronisasi Data Anggaran",
       "pages": [
         "sinkronisasi/revisi",
