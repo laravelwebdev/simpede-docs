@@ -27,8 +27,16 @@
   },
   "topbarCtaButton": {
     "name": "Simpede",
+    "style" : "roundedRectangle",
     "url": "https://simpede.office6307.my.id"
   },
+  "topbarLinks": [
+    {
+      "name": "Ujicoba",
+      "url": "https://devbeta.site"
+    }
+  ],
+  
   "navigation": [
     {
       "group": "Sebelum Memulai",
