@@ -5,7 +5,7 @@ description: "Pengelolaan Softcopy Arsip Dokumen"
 ---
 
 ## Kewenangan Pengguna
-
+Arsip yang telah bertanda tangan perlu di scan dan diupload untuk pengarsipan.
 Berikut adalah user yang dapat melakukan upload arsip dokumen berdasarkan kewenangan.
 
 | Arsip                 | Pengunggah                            |
@@ -23,5 +23,37 @@ Berikut adalah user yang dapat melakukan upload arsip dokumen berdasarkan kewena
 | Penerimaan Persediaan | Pengelola Persediaan                  |
 
 ## Kerangka Acuan
-Tambah jenis
-hubungkan SPM dan SP2D
+<Note>
+   Menu : `Manajemen` -> `Kerangka Acuan Kerja` 
+</Note>
+Untuk pengarsipan berkas SPJ terkait Kerangka Acuan Kerja, Arsiparis wajib melakukan 2 hal berikut.
+<Steps>
+    <Step title="Menambahkan Nomor SPP pada KAK">
+        Untuk Menambahkan Nomor SPP, Klik `Tombol Aksi` dan pilih `Tambah Nomor SPP`
+        <Frame caption="Menambahkan Nomor SPP pada Kerangka Acuan Kerja">
+        ![Tambah Nomor SPP](../images/tambah-spp.png)
+        </Frame>
+    </Step>
+    <Step title="Mengupload Arsip">
+        Upload Arsip KAK dapat dilakukan dengan mengakses `Halaman Detail` Kerangka Acuan lalu mengklik Tab `Arsip Dokumen.
+        <Frame caption="Tab Arsip Dokumen">
+        ![Tab](../images/tab-arsip-kak.png)
+        </Frame>
+        Selanjutnya, klik `Tombol Edit` untuk memilih dan mengupload arsip dokumen.
+        <Frame caption="Tombol Edit untuk upload arsip">
+        ![Upload](../images/upload-arsip-kak.png)
+        </Frame>
+        <Tip>
+            Secara default telah terdapat 5 jenis dokumen yang harus diupload, yaitu:
+            1. Mutasi Rekening
+            2. SPJ
+            3. Surat Setoran Pajak
+            4. Form Permintaan
+            5. Kerangka Acuan Kerja
+        </Tip>
+        Jenis dokumen tergantung dari jenis KAK, ada kalanya perlu menambahkan jenis dokumen lainnya. Untuk menambahkan jenis dokumen, klik tombol `Tambah`.
+        <Frame caption="Menambah Jenis Dokumen">
+        ![Tambah](../images/tambah-arsip-kak.png)
+        </Frame>
+    </Step>
+</Steps>
