@@ -101,6 +101,12 @@
       ]
     },
     {
+      "group": "Reward Pegawai",
+      "pages": [
+        "reward/reward"
+      ]
+    },
+    {
       "group": "Sinkronisasi Data Anggaran",
       "pages": [
         "sinkronisasi/revisi",
