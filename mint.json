@@ -6,7 +6,7 @@
     "light": "/logo/light.svg"
   },
   "background": {
-    "style": "windows"
+    "style": "gradient"
   },
   "sidebar": {
     "items": "card"
