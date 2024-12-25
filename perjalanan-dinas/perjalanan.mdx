@@ -1,14 +1,17 @@
 ---
 title: "Pembuatan Nomor"
 icon : "car"
-description: "Menu `Perjalanan Dinas` digunakan untuk membuat secara otomatis nomor Surat Tugas dan Surat Perintah Perjalanan Dinas. Selain itu juga dapat digunakan untuk mencetak Surat Tugas, SPPD, Kuitansi dan Pernyataan Tidak Menggunakan Kendaraan Dinas."
+description: "Menu `Perjalanan Dinas` digunakan untuk membuat secara otomatis nomor Surat Tugas dan Surat Perintah Perjalanan Dinas. Selain itu juga dapat digunakan untuk mencetak Surat Tugas, SPPD, Kuitansi dan Pernyataan Tidak Menggunakan Kendaraan Dinas untuk Perjalanan Dinas Biasa."
 ---
 
 
 ## Membuat
 
 <Note>
-Daftar Perjalanan Dinas tidak bisa ditambahkan secara manual. Daftar ini akan dibuat otomatis apabila terdapat penggunaan anggaran perjalanan dinas pada Kerangka Acuan yang telah dibuat.
+Daftar Perjalanan Dinas tidak bisa ditambahkan jika terdapat anggaran perjalanan pada Kerangka Acuan Kerja. Untuk menambahkan perjalanan dinas, pada `Halaman Indeks` Kerangka Acuan, klik `Tombol Aksi` dan pilih `Tambahkan Perjalanan Dinas`.
+<Frame caption="Tampilan Menambahkan Perjalanan Dinas">
+    ![Tambah SPPD](../images/tambah-perjalanan.png)
+</Frame>
 </Note>
 
 ### Membuat Nomor
@@ -23,6 +26,10 @@ Nomor Surat Tugas dan Surat Perintah Perjalanan Dinas yang dibuat dapat dilihat 
 
 ### Menambahkan Daftar Peserta
 
+<Warning>
+    Untuk saat ini, fitur hanya dapat digunakan untuk jenis `Perjalanan Dinas Biasa`
+</Warning>
+
 <Note>
 Daftar Peserta perlu ditambahkan apabila ingin mencetak Surat Tugas, Surat Perintah Perjalanan Dinas, Kuitansi dan Pernyataan Tidak Menggunakan Kendaraan Dinas.
 </Note>
@@ -34,6 +41,9 @@ Penambahan Daftar Peserta dapat dilakukan melalui `Halaman Detail` Perjalanan Di
 </Frame>
 
 ### Mencetak
+<Warning>
+    Untuk saat ini, fitur hanya dapat digunakan untuk jenis `Perjalanan Dinas Biasa`
+</Warning>
 
 Pencetakan Surat Tugas, Surat Perintah Perjalanan Dinas, Kuitansi dan Pernyataan Tidak Menggunakan Kendaraan Dinas dapat dilakukan melalui `Halaman Detail` Perjalanan Dinas. Klik `Tombol Aksi` pada tabel `Daftar Peserta Perjalanan` dan pilih jenis dokumen yang ingin dicetak.
 
