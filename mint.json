@@ -25,12 +25,12 @@
       "to": "#07C983"
     }
   },
-  "topbarCtaButton": {
-    "name": "Simpede",
-    "style" : "roundedRectangle",
-    "url": "https://simpede.my.id"
-  },
-  "topbarLinks": [
+
+  "anchors": [
+    {
+      "name": "Simpede",
+      "url": "https://simpede.my.id"
+    },
     {
       "name": "Office 6307",
       "url": "https://office6307.my.id"
