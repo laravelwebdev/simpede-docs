@@ -30,7 +30,7 @@
     "style" : "roundedRectangle",
     "url": "https://simpede.my.id"
   },
-  "anchors": [
+  "topbarLinks": [
     {
       "name": "Office 6307",
       "url": "https://office6307.my.id"
@@ -114,5 +114,9 @@
         "sinkronisasi/serapan"
       ]
     }
-  ]
+  ],
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  }
 }
