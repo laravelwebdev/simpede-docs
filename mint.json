@@ -9,12 +9,13 @@
     "style": "windows"
   },
   "sidebar": {
-    "items": "card"
+    "items": "container"
   },
   "topbar": {
     "style": "gradient"
   },
   "layout": "topnav",
+  "rounded": "sharp",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
