@@ -61,6 +61,12 @@
       ]
     },
     {
+      "group": "Pengelolaan SAKIP",
+      "pages": [
+        "sakip/sakip"
+      ]
+    },
+    {
       "group": "Kalender Kegiatan",
       "pages": [
         "kalender/kalender"
