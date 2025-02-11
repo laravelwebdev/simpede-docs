@@ -1,0 +1,119 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Panduan Penggunaan Simpede",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Sebelum Memulai",
+        "pages": [
+          "introduction",
+          "personalisasi"
+        ]
+      },
+      {
+        "group": "Panduan Umum",
+        "pages": [
+          "kerangka-acuan",
+          "izin-keluar",
+          "permintaan-persediaan",
+          "naskah-keluar",
+          "pemeliharaan",
+          "rapat-internal"
+        ]
+      },
+      {
+        "group": "Pengelolaan SAKIP",
+        "pages": [
+          "sakip/sakip"
+        ]
+      },
+      {
+        "group": "Kalender Kegiatan",
+        "pages": [
+          "kalender/kalender"
+        ]
+      },
+      {
+        "group": "Perjalanan Dinas",
+        "pages": [
+          "perjalanan-dinas/perjalanan"
+        ]
+      },
+      {
+        "group": "Honor Kegiatan",
+        "pages": [
+          "honor/honor"
+        ]
+      },
+      {
+        "group": "Pengelolaan Kontrak Mitra",
+        "pages": [
+          "kontrak/kontrak",
+          "kontrak/bast"
+        ]
+      },
+      {
+        "group": "Pengelolaan Persediaan",
+        "pages": [
+          "persediaan/permintaan",
+          "persediaan/pembelian",
+          "persediaan/masuk",
+          "persediaan/keluar"
+        ]
+      },
+      {
+        "group": "Kartu Kendali",
+        "pages": [
+          "karken/persediaan",
+          "karken/pemeliharaan"
+        ]
+      },
+      {
+        "group": "Arsip dan Dokumentasi",
+        "pages": [
+          "arsip/arsip"
+        ]
+      },
+      {
+        "group": "Reward Pegawai",
+        "pages": [
+          "reward/reward"
+        ]
+      },
+      {
+        "group": "Sinkronisasi Data Anggaran",
+        "pages": [
+          "sinkronisasi/revisi",
+          "sinkronisasi/serapan"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Office 6307",
+        "href": "https://office6307.my.id"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Simpede",
+      "href": "https://simpede.my.id"
+    }
+  }
+}
